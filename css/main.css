@@ -18,23 +18,60 @@ p{
 
 /* section navbar */
 
+.section_navbar{
+    background-color:#ffffff;
+}
+
 /* section jumbotron */
+
+.section_jumbotron{
+    background-image: url('../img/bg-banner-home.jpg');
+    background-position: center;
+
+}
 
 /* section luoghi */
 
+.section_loghi{
+    background-color: #f3f5f9;
+}
+
 /* section sidebar */
 
+.section_sidebar{
+    background-color:#ffffff;
+}
+
 /* section choiche */
+
+.section_choiche{
+    background-color: #f3f5f9;
+}
 
 
 /* section features */
 
+.section_features{
+    background-color: #ffffff;
+}
+
 /* section services */
 
+.section_services{
+    background-color: #0044c3;
+}
 
 /* section choiche second */
+.section_choiche_second{
+    background-color: #f3f5f9;
+}
 
 /* section account */
-
+.section_account{
+    background-color: #0034ae;
+}
 
 /* footer part_footer */
+.part_footer{
+    background-color: #031c4e;
+}
