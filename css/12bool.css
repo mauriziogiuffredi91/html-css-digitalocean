@@ -29,12 +29,7 @@
 
 @media screen and (max-width:768px){
 
-    .container{
-        width: 100%;
-        
-    }
-
-    
+       
 
     /* colonne extra small max-width 767px */
     .col-xs-12{

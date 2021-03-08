@@ -12,6 +12,10 @@ p{
 
 /* generali */
 
+.down{
+    padding-top: 10px;
+}
+
 /* button */
 
 .button-white{
@@ -50,29 +54,41 @@ li a{
     background-color:#ffffff;
 }
 
-.navbar-main{
+.navbar-general{
     position: fixed;
 }
 
-.navbar-main .nav-brand img{
+
+
+.navbar-general .nav-brand img{
     width: 40%;
     padding: 20px 0;
 }
 
-.navbar-main .hamburger-menu{
+.navbar-general .hamburger-menu{
     text-align: right;
 }
     
 
-.navbar-main i.ham{
+.navbar-general i.ham{
     color: #3a8aff;
     font-size: 20px;
     margin-top: 13%;
     
 }
 
-.navbar-collapsed i{
+.middle-menu{
+    margin-top: 10px;
+}
+
+.right-menu{
+    text-align: right;
+}
+
+.middle-menu i,
+.right-menu i{
     margin-left: 5px;
+    font-size: 15px;
 }
 
 /* mediaquery per scomparsa hamburger */
