@@ -126,9 +126,52 @@ li a{
 
 .section_jumbotron{
     background-image: url('../img/bg-banner-home.jpg');
-    background-position: center;
+    height: 1000px;
+    background-repeat: no-repeat;
+    
 
 }
+
+
+.box-jumbotron{
+    padding: 80px 0;
+
+}
+
+.box-jumbotron .box-jumbo-top h1{
+    color: white;
+    font-size: 40px;
+    width: 464px;
+    margin-bottom: 10px;
+}
+
+.box-jumbotron .box-jumbo-top h4{
+    color: #b8c9fe;
+    font-size: 24px;
+    width: 464px;
+}
+
+.box-jumbotron .box-jumbo-bottom{
+    height: 364px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 2%;
+    margin: 0 20px;
+    padding: 10px 10px;
+
+    
+}
+
+.box-jumbo-bottom h3{
+    font-size: 30px;
+}
+
+.box-jumbo-bottom h3:last-of-type{
+    color: blue;
+    
+}
+
+
 
 /* section luoghi */
 
