@@ -16,6 +16,18 @@ p{
 
 /* li */
 
+li{
+    display: inline-block;
+    margin-right: 10px;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
 /* section navbar */
 
 .header_main{
@@ -39,9 +51,35 @@ p{
 .navbar-main i.ham{
     color: #3a8aff;
     font-size: 20px;
-    margin-top: 25px
+    margin-top: 13%;
     
 }
+
+.navbar-collapsed i{
+    margin-left: 5px;
+}
+
+/* mediaquery per scomparsa hamburger */
+
+@media screen and (min-width: 992px){
+    
+    .hamburger-menu {
+        display: none;
+    }
+}
+
+/* mediaquery per hamburger */
+
+@media screen and (max-width:768px){
+
+    .right-menu,
+    .middle-menu{
+        display: none;
+    }
+
+
+}
+
 /* section jumbotron */
 
 .section_jumbotron{
