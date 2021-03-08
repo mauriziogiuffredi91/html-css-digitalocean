@@ -52,11 +52,12 @@ li a{
 
 .header_main{
     background-color:#ffffff;
+    padding-bottom: 90px;
 }
 
 .navbar-general{
     position: fixed;
-    padding: 10px 0;
+    
 }
 
 
