@@ -85,7 +85,7 @@ li a{
 
     .middle-menu,
     .right-menu{
-        display: visible;
+        display: block;
     }
 }
 
@@ -94,7 +94,7 @@ li a{
 @media screen and (max-width: 992px){
 
     .hamburger-menu{
-        display: visible;
+        display: block;
     }
 
     .middle-menu,
