@@ -14,6 +14,22 @@ p{
 
 /* button */
 
+.button-white{
+    background-color: #fff;
+    color: blue;
+    cursor: pointer;
+    border: 1px solid blue;
+    
+}
+
+.btn{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 /* li */
 
 li{
@@ -66,17 +82,25 @@ li a{
     .hamburger-menu {
         display: none;
     }
+
+    .middle-menu,
+    .right-menu{
+        display: visible;
+    }
 }
 
 /* mediaquery per hamburger */
 
-@media screen and (max-width:768px){
+@media screen and (max-width: 992px){
 
-    .right-menu,
-    .middle-menu{
-        display: none;
+    .hamburger-menu{
+        display: visible;
     }
 
+    .middle-menu,
+    .right-menu{
+        display: none;
+    }
 
 }
 
