@@ -18,10 +18,30 @@ p{
 
 /* section navbar */
 
-.section_navbar{
+.header_main{
     background-color:#ffffff;
 }
 
+.navbar-main{
+    position: fixed;
+}
+
+.navbar-main .nav-brand img{
+    width: 40%;
+    padding: 20px 0;
+}
+
+.navbar-main .hamburger-menu{
+    text-align: right;
+}
+    
+
+.navbar-main i.ham{
+    color: #3a8aff;
+    font-size: 20px;
+    margin-top: 25px
+    
+}
 /* section jumbotron */
 
 .section_jumbotron{

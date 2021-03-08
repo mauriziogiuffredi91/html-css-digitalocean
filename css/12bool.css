@@ -29,6 +29,13 @@
 
 @media screen and (max-width:768px){
 
+    .container{
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     
 
     /* colonne extra small max-width 767px */
