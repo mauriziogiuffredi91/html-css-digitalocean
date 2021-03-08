@@ -172,6 +172,26 @@ li a{
 }
 
 
+.box-jumbo-bottom input{
+    font-size: 20px;
+    width: 96%;
+    padding: 10px;
+    border-radius: 10px;
+    border: .5px solid lightgray;
+    margin: 10px 0;
+}
+
+
+.btn.create-account{
+    background-color:#579aff;
+    cursor: pointer;
+    border: 1px solid #579aff;
+    color: white;
+    font-size: 15px;
+    padding: 1.6% 35%;
+    font-weight:bold;
+}
+
 
 /* section luoghi */
 
