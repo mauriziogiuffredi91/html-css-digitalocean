@@ -155,13 +155,17 @@ li a{
     
 }
 
-.box-jumbotron .box-jumbo-bottom{
+.jumbo-bottom{
+    margin: 0 auto;
+}
+
+.jumbo-bottom .box-jumbo-bottom{
     height: 364px;
     background-color: #fff;
     text-align: center;
     border-radius: 2%;
-    margin: 0 20px;
     padding: 10px 10px;
+    margin: 0 10px;
 
     
 }
@@ -192,7 +196,7 @@ li a{
     cursor: pointer;
     border: 1px solid #579aff;
     color: white;
-    font-size: 15px;
+    font-size: 13px;
     padding: 1.6% 35%;
     font-weight:bold;
 }
