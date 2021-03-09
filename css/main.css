@@ -138,9 +138,6 @@ li a{
 
 
 
-
-
-
 .box-jumbotron .box-jumbo-top h1{
     color: white;
     font-size: 40px;
@@ -304,6 +301,7 @@ li a{
 .bottom-script i{
     vertical-align: middle;
     margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 
@@ -314,6 +312,20 @@ li a{
     background-color:#ffffff;
 }
 
+.section_sidebar .box-deploy-scale{
+    text-align: center;
+    margin: 85px 0;
+}
+
+.section_sidebar .box-deploy-scale h2{
+    font-size: 33px;
+}
+.section_sidebar .box-deploy-scale h4{
+    color: #6f7b97;
+    font-size: 20px;
+    padding: 10px 80px;
+
+}
 /* section choiche */
 
 .section_choiche{
@@ -347,3 +359,5 @@ li a{
 .part_footer{
     background-color: #031c4e;
 }
+
+
