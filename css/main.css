@@ -349,6 +349,7 @@ li a{
 
 .sidebar-box .box-content{
     margin: 5px 0;
+    height: 180px;
     
     
 }
@@ -360,7 +361,7 @@ li a{
 
 .sidebar-box .box-content p{
     font-size: 15px;
-    width: 65%;
+    
 }
 
 /* section choiche */
