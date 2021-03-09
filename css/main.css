@@ -2,6 +2,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 p{
     margin: 0;
     padding: 0;
@@ -276,12 +277,12 @@ li a{
         width: 13%;
         padding-left: 60px;
         vertical-align: middle;
+    }
         
 
 
 
 
-    }
     .section_loghi .log img{
         width: 140px;
     }
@@ -326,6 +327,39 @@ li a{
     padding: 10px 80px;
 
 }
+
+.sidebar-box .sidebar{
+    border-left: 2px solid #75809a;
+    padding-left: 37px;
+    
+}
+.sidebar-box .sidebar li{
+    display: block;
+    margin:20px 0;
+    list-style: none;
+    
+
+}
+
+.sidebar-box .sidebar h4{
+    color: #75809a;
+    font-size: 20px;
+}
+
+.sidebar-box .box-content{
+    margin: 5px 0;
+    
+}
+
+.sidebar-box .box-content h4{
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.sidebar-box .box-content p{
+    font-size: 15px;
+}
+
 /* section choiche */
 
 .section_choiche{
