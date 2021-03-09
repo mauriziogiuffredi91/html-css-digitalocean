@@ -321,15 +321,16 @@ li a{
 .section_sidebar .box-deploy-scale h2{
     font-size: 33px;
 }
-.section_sidebar .box-deploy-scale h4{
+.section_sidebar .box-deploy-scale p{
     color: #6f7b97;
     font-size: 20px;
-    padding: 10px 80px;
+    padding: 10px 35px;
 
 }
 
 .sidebar-box .sidebar{
     border-left: 2px solid #75809a;
+    
     
     
 }
