@@ -60,6 +60,7 @@ li a{
     position: fixed;
     background-color: white;
     width: 100%;
+    z-index: 10;
 }
 
 
@@ -328,12 +329,49 @@ li a{
 
 }
 
-.sidebar-box .sidebar{
-    border-left: 2px solid #75809a;
+.sidebar{
     
-    
+
     
 }
+
+.sidebar-box ul{
+    position: relative;
+    margin-left: 40%;
+    
+}
+
+.sidebar-box ul::before{
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background-color: #75809a;
+    
+}
+    
+@media screen and (max-width: 767px){
+
+
+    .sidebar-box ul{
+        margin-left: 0;
+        
+        
+    }
+
+
+
+
+
+
+}
+    
+    
+    
+
+
 .sidebar-box .sidebar li{
     display: block;
     margin:20px 0;
