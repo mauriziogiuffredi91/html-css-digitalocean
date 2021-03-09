@@ -240,26 +240,28 @@ li a{
 }
 
 .section_loghi .log li{
+    margin: 10px 0;
     
-    margin-left: 6%;
-    list-style: none;
 }
+    
 
+/* media screen loghi */
 
-
-@media screen and (min-width: 415px){
+@media screen and (min-width: 414px){
 
        
     .section_loghi .log li{
         display: inline-block;
-        margin-left: 10px;
+        margin-left: 15px;
         float: none;
         width: 13%;
-        padding-left: 10px;
+        padding-left: 20px;
+        vertical-align: middle;
         
     }
     .section_loghi .log img{
-        width: 110px;
+        width: 100px;
+        
     }
 }
 
@@ -276,6 +278,7 @@ li a{
         float: none;
         width: 13%;
         padding-left: 60px;
+        vertical-align: middle;
         
 
 
@@ -287,6 +290,21 @@ li a{
     }
 }
 
+
+.bottom-script{
+    text-align: center;
+}
+
+.bottom-script a{
+    text-decoration: none;
+    color: #006aff;
+    font-size: 20px;
+}
+
+.bottom-script i{
+    vertical-align: middle;
+    margin-left: 10px;
+}
 
 
 
