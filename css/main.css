@@ -138,9 +138,7 @@ li a{
 
 }
 
-/* .box-jumbotron .box-jumbo-top{
-    width: 464px;
-} */
+
 
 .box-jumbotron .box-jumbo-top h1{
     color: white;
@@ -168,6 +166,10 @@ li a{
     
 
     
+}
+
+.jumbo-bottom .box-jumbo-bottom p{
+    font-size: 12px;
 }
     
 
@@ -202,6 +204,7 @@ li a{
 }
 
 .btn.create-signup{
+    position: relative;
     background-color:white;
     cursor: pointer;
     border: 1px solid white;
@@ -212,6 +215,13 @@ li a{
     margin: 10px 0;
     box-shadow: 2px 2px #e3e3e3;
     
+}
+
+.btn.create-signup img{
+    width: 20px;
+    position: absolute;
+    right: 94%;
+    top: 24%;
 }
 
 /* section luoghi */
