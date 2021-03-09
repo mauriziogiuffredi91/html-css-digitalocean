@@ -252,11 +252,39 @@ li a{
        
     .section_loghi .log li{
         display: inline-block;
+        margin-left: 10px;
+        float: none;
+        width: 13%;
+        
+
+
+
+
     }
     .section_loghi .log img{
-        width: calc((100% /6) - 5px);
+        width: 110%;
     }
 }
+
+@media screen and (min-width: 768px){
+
+       
+    .section_loghi .log li{
+        display: inline-block;
+        margin-left: 10px;
+        float: none;
+        width: 13%;
+        
+
+
+
+
+    }
+    .section_loghi .log img{
+        width: 110%;
+    }
+}
+
 
 
 
