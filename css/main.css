@@ -138,17 +138,21 @@ li a{
 
 }
 
+/* .box-jumbotron .box-jumbo-top{
+    width: 464px;
+} */
+
 .box-jumbotron .box-jumbo-top h1{
     color: white;
     font-size: 40px;
-    width: 464px;
     margin-bottom: 10px;
+    
 }
 
 .box-jumbotron .box-jumbo-top h4{
     color: #b8c9fe;
     font-size: 24px;
-    width: 464px;
+    
 }
 
 .box-jumbotron .box-jumbo-bottom{
@@ -161,6 +165,7 @@ li a{
 
     
 }
+    
 
 .box-jumbo-bottom h3{
     font-size: 30px;
