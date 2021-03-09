@@ -330,7 +330,7 @@ li a{
 
 .sidebar-box .sidebar{
     border-left: 2px solid #75809a;
-    padding-left: 37px;
+    
     
 }
 .sidebar-box .sidebar li{
@@ -349,6 +349,7 @@ li a{
 .sidebar-box .box-content{
     margin: 5px 0;
     
+    
 }
 
 .sidebar-box .box-content h4{
@@ -358,6 +359,7 @@ li a{
 
 .sidebar-box .box-content p{
     font-size: 15px;
+    width: 65%;
 }
 
 /* section choiche */
