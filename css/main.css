@@ -45,7 +45,7 @@ li{
 li a{
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    
 }
 
 /* section navbar */
@@ -58,7 +58,7 @@ li a{
 .navbar-general{
     position: fixed;
     background-color: white;
-    
+    width: 100%;
 }
 
 
@@ -81,11 +81,14 @@ li a{
 }
 
 .middle-menu{
-    margin-top: 10px;
+    margin-top: 12px;
+    text-align: center;
+    font-size: 18px;
 }
 
 .right-menu{
     text-align: right;
+    font-size: 18px;
 }
 
 .middle-menu i,
@@ -155,7 +158,7 @@ li a{
 }
 
 .jumbo-bottom{
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .jumbo-bottom .box-jumbo-bottom{
@@ -225,10 +228,16 @@ li a{
     top: 24%;
 }
 
-/* section luoghi */
+/* section loghi */
 
 .section_loghi{
     background-color: #f3f5f9;
+}
+
+.section_loghi .title{
+    text-align: center;
+    color: #6f7b97;
+    text-transform: uppercase;
 }
 
 /* section sidebar */
