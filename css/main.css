@@ -137,10 +137,7 @@ li a{
 }
 
 
-.box-jumbotron{
-    padding: 80px 0;
 
-}
 
 
 
@@ -238,7 +235,30 @@ li a{
     text-align: center;
     color: #6f7b97;
     text-transform: uppercase;
+    padding: 20px 0;
+    font-size: 12px;
 }
+
+.section_loghi .log li{
+    
+    margin-left: 6%;
+    list-style: none;
+}
+
+
+
+@media screen and (min-width: 415px){
+
+       
+    .section_loghi .log li{
+        display: inline-block;
+    }
+    .section_loghi .log img{
+        width: calc((100% /6) - 5px);
+    }
+}
+
+
 
 /* section sidebar */
 
