@@ -255,18 +255,19 @@ li a{
         margin-left: 10px;
         float: none;
         width: 13%;
+        padding-left: 10px;
         
-
-
-
-
     }
     .section_loghi .log img{
-        width: 110%;
+        width: 110px;
     }
 }
 
-@media screen and (min-width: 768px){
+
+
+
+
+@media screen and (min-width: 992px){
 
        
     .section_loghi .log li{
@@ -274,6 +275,7 @@ li a{
         margin-left: 10px;
         float: none;
         width: 13%;
+        padding-left: 60px;
         
 
 
@@ -281,7 +283,7 @@ li a{
 
     }
     .section_loghi .log img{
-        width: 110%;
+        width: 140px;
     }
 }
 
