@@ -51,12 +51,13 @@ li a{
 /* section navbar */
 
 .header_main{
-    background-color:#ffffff;
     padding-bottom: 90px;
+    
 }
 
 .navbar-general{
     position: fixed;
+    background-color: white;
     
 }
 
@@ -126,8 +127,8 @@ li a{
 
 .section_jumbotron{
     background-image: url('../img/bg-banner-home.jpg');
-    height: 1000px;
     background-repeat: no-repeat;
+    
     
 
 }
@@ -158,11 +159,11 @@ li a{
 }
 
 .jumbo-bottom .box-jumbo-bottom{
-    height: 364px;
     background-color: #fff;
     text-align: center;
     border-radius: 2%;
     padding: 10px 10px;
+    
     
 
     
