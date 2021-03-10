@@ -2,7 +2,8 @@ h1,
 h3,
 h4,
 h5,
-p{
+p,
+a{
     margin: 0;
     padding: 0;
     font-family: 'Roboto Slab', serif;
@@ -250,6 +251,9 @@ li a{
     margin: 10px 0;
     
 }
+
+
+
     
 
 /* media screen loghi */
@@ -305,7 +309,9 @@ li a{
 .bottom-script a{
     text-decoration: none;
     color: #006aff;
-    font-size: 20px;
+    font-size: 15px;
+    margin-bottom: 13px;
+    display: inline-block;
 }
 
 .bottom-script i{
@@ -550,10 +556,6 @@ li a{
 
 
 
-
-
-
-
 /* section features */
 
 .section_features{
@@ -561,10 +563,14 @@ li a{
 }
 
 .section_features .box-content{
-    margin: 5px 0;
+    margin-bottom: 10px;
     height: 180px;
     
     
+}
+
+.section_features .box-content:last-of-type{
+    margin-bottom: 120px;
 }
 
 .section_features .box-content h4{
@@ -580,9 +586,11 @@ li a{
 }
 
 .section_features .box-content a{
-    font-family: 'Roboto Slab', serif;
     color: blue;
     text-decoration: none;
+    display: inline-block;
+    
+    
 
 }
 
@@ -595,8 +603,73 @@ li a{
 /* section services */
 
 .section_services{
-    background-color: #0044c3;
+    background-image: linear-gradient(#0047c5, #0043c1);
+    text-align: center;
 }
+
+
+.section_services .title_service h2{
+    color: white;
+    padding-top: 90px;
+}
+
+.section_services .box_city{
+    margin: 10px 0;
+}
+
+.section_services .box_city li:not(:last-of-type){
+    border-bottom: 1px solid white;
+
+}
+
+.section_services .box_city h5,
+.section_services .box_city p,
+.section_services .box_city a{
+    display: inline-block;
+    margin: 10px 11px;
+    font-size: 13px;
+    color: white;
+}
+
+.section_services .box_city a{
+    color: #00d5d1;
+}
+
+@media screen and (min-width:605px){
+    
+    .section_services .box_city h5,
+    .section_services .box_city p,
+    .section_services .box_city a{
+        display: inline-block;
+        margin: 10px 40px;
+        font-size: 13px;
+        color: white;
+    }
+
+
+    .section_services .box_city a{
+        color: #00d5d1;
+    }
+}
+
+@media screen and (min-width:1000px){
+    
+    .section_services .box_city h5,
+    .section_services .box_city p,
+    .section_services .box_city a{
+        display: inline-block;
+        margin: 10px 30px;
+        font-size: 13px;
+        color: white;
+    }
+
+
+    .section_services .box_city a{
+        color: #00d5d1;
+    }
+}
+
+
 
 /* section choiche second */
 .section_choiche_second{
@@ -642,6 +715,10 @@ li a{
 .part_footer{
     background-color: #031c4e;
 }
+
+
+
+
 
 
 
