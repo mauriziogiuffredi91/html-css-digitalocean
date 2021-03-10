@@ -28,10 +28,7 @@
 }
 
 @media screen and (max-width:767px){
-
-    .container{
-        width: 100%;
-    }   
+  
 
     /* colonne extra small max-width 767px */
     .col-xs-12{
@@ -137,9 +134,7 @@
 
 @media screen and (min-width:768px){
     
-    .container{
-        width: 100%;
-    } 
+    
 
     .col-sm-12{
         width: 100%;
@@ -246,9 +241,7 @@
 @media screen and (min-width: 992px){ 
 
     
-    .container{
-        width: 100%;
-    } 
+   
     
     .col-md-12{
         width: 100%;
@@ -354,9 +347,7 @@
 @media screen and (min-width: 1200px){ 
 
     
-    .container{
-        width: 100%;
-    } 
+    
     
     .col-lg-12{
         width: 100%;
