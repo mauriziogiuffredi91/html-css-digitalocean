@@ -246,13 +246,22 @@ li a{
     text-align: center;
     color: #6f7b97;
     text-transform: uppercase;
-    padding: 20px 0;
     font-size: 12px;
+}
+    
+.section_loghi .title h3{
+    padding-top: 15px;
 }
 
 .section_loghi .log li{
     margin: 10px 0;
+    height: 120px;
     
+}
+
+.section_loghi .log img{
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -261,47 +270,45 @@ li a{
 
 /* media screen loghi */
 
-@media screen and (min-width: 414px){
+@media screen and (min-width: 766px){
+    .section_loghi .log li{
+        width: calc(100% / 6 - 20px);
+        text-align: center;
+        
+        
+    }
+
+    .section_loghi .log img{
+        width: 100%;
+        margin-left: 60px;
+        
+    }
+    
+    
 
        
-    .section_loghi .log li{
-        display: inline-block;
-        margin-left: 15px;
-        float: none;
-        width: 13%;
-        padding-left: 20px;
-        vertical-align: middle;
-        
-    }
-    .section_loghi .log img{
-        width: 100px;
-        
-    }
+   
 }
 
 
 
 
 
-@media screen and (min-width: 992px){
-
-       
+@media screen and (min-width: 990px){
     .section_loghi .log li{
-        display: inline-block;
-        margin-left: 10px;
-        float: none;
-        width: 13%;
-        padding-left: 60px;
-        vertical-align: middle;
-    }
+        width: calc(100% / 6 - 20px);
         
-
-
-
+        
+        
+    }
 
     .section_loghi .log img{
-        width: 140px;
+        width: 100%;
+        margin-left: 60px;
+        
     }
+       
+   
 }
 
 
