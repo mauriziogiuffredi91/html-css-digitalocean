@@ -141,7 +141,7 @@ li a{
 
 .section_jumbotron{
     background-image: url('../img/bg-banner-home.jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     
     
 
@@ -163,7 +163,7 @@ li a{
     
 }
 
-.jumbo-bottom{
+.section_jumbotron .jumbo-bottom{
     margin: 20px auto;
 }
 
@@ -172,6 +172,8 @@ li a{
     text-align: center;
     border-radius: 2%;
     padding: 10px 10px;
+    
+    
     
     
 
