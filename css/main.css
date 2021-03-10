@@ -273,7 +273,7 @@ li a{
 @media screen and (min-width: 766px){
     .section_loghi .log li{
         width: calc(100% / 6 - 20px);
-        text-align: center;
+        
         
         
     }
