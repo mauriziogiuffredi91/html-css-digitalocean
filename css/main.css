@@ -94,12 +94,12 @@ li a{
 .middle-menu{
     margin-top: 12px;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .right-menu{
     text-align: right;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .middle-menu i,
@@ -614,7 +614,7 @@ li a{
 }
 
 .section_services .box_city{
-    margin: 10px 0;
+    margin: 55px 0;
 }
 
 .section_services .box_city li:not(:last-of-type){
@@ -622,52 +622,37 @@ li a{
 
 }
 
+.section_services .box_city li{
+    display: block;
+}
+
 .section_services .box_city h5,
 .section_services .box_city p,
 .section_services .box_city a{
     display: inline-block;
-    margin: 10px 11px;
+    margin: 10px 0;
     font-size: 13px;
     color: white;
 }
+
+
+.section_services .box_city h5{
+    width: 23%;
+}
+
+.section_services .box_city p{
+    width: 48%;
+}
+
+.section_services .box_city a{
+    width: 23%;
+}
+
 
 .section_services .box_city a{
     color: #00d5d1;
 }
 
-@media screen and (min-width:605px){
-    
-    .section_services .box_city h5,
-    .section_services .box_city p,
-    .section_services .box_city a{
-        display: inline-block;
-        margin: 10px 40px;
-        font-size: 13px;
-        color: white;
-    }
-
-
-    .section_services .box_city a{
-        color: #00d5d1;
-    }
-}
-
-@media screen and (min-width:1000px){
-    
-    .section_services .box_city h5,
-    .section_services .box_city p,
-    .section_services .box_city a{
-        display: inline-block;
-        margin: 10px 30px;
-        font-size: 13px;
-        color: white;
-    }
-
-
-    .section_services .box_city a{
-        color: #00d5d1;
-    }
-}
 
 
 
