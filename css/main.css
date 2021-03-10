@@ -1,5 +1,4 @@
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -9,6 +8,7 @@ p{
     font-family: 'Roboto Slab', serif;
 }
 
+
 /* utilities */
 
 /* generali */
@@ -16,6 +16,14 @@ p{
 .down{
     padding-top: 19px;
 }
+
+h2{
+    font-size: 33px;
+    margin: 10px 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
 
 /* button */
 
@@ -303,7 +311,7 @@ li a{
 .bottom-script i{
     vertical-align: middle;
     margin-left: 10px;
-    margin-bottom: 20px;
+    
 }
 
 
@@ -315,14 +323,12 @@ li a{
     
 }
 
-.section_sidebar .box-deploy-scale{
+.box-deploy-scale{
     text-align: center;
     margin: 85px 0;
 }
 
-.section_sidebar .box-deploy-scale h2{
-    font-size: 33px;
-}
+
 .section_sidebar .box-deploy-scale p{
     color: #6f7b97;
     font-size: 20px;
@@ -405,10 +411,7 @@ li a{
     padding: 30px;
     
 }
-.content-text-slide h2{
-    font-size: 33px;
-    margin: 10px 0;
-}
+
 .content-text-slide p{
     color: #6f7b97;
     font-size: 20px;
@@ -422,13 +425,13 @@ li a{
     
 }
 
-.content-slide img{
+.section_choiche .content-slide img{
     width: 100%;
 }
 
 
 
-.content-slide p{
+.section_choiche .content-slide p{
     margin-top: 10px;
 }
 
@@ -445,18 +448,25 @@ li a{
 }
 
 
+
+
+
+
+
+
+
+
 @media screen and (min-width: 767px){
 
     
     
-    .section_choiche .content-slide,
-    .section_choiche_second .rockerbox{
+    .section_choiche .content-slide{
         position: relative;
+    
     }
     
     
-    .section_choiche .content-slide::before,
-    .section_choiche_second .rockerbox::before{
+    .section_choiche .content-slide::before{
         border-style: solid;
         border-width: 8px 8px 0 0;
         content: '';
@@ -470,12 +480,12 @@ li a{
         width: 18px;
         color: gray;
         border-radius: 10%;
+    
 
         
     }
     
-    .section_choiche .content-slide::after,
-    .section_choiche_second .rockerbox::after{
+    .section_choiche .content-slide::after{
         border-style: solid;
         border-width: 8px 8px 0px 0;
         content: '';
@@ -496,6 +506,44 @@ li a{
 
 
     }
+
+    .section_choiche_second .rockerbox{
+        position: relative;
+
+
+
+    }
+    .section_choiche_second .rockerbox::before{
+        border-style: solid;
+        border-width: 8px 8px 0 0;
+        content: '';
+        display: inline-block;
+        height: 18px;
+        right: 100%;
+        top: 50%;
+        position: absolute;
+        transform: rotate(-135deg);
+        vertical-align: top;
+        width: 18px;
+        color: gray;
+        border-radius: 10%;
+    }
+    .section_choiche_second .rockerbox::after{
+        border-style: solid;
+        border-width: 8px 8px 0px 0;
+        content: '';
+        display: inline-block;
+        height: 18px;
+        left: 100%;
+        position: absolute;
+        top: 50%;
+        transform: rotate(45deg);
+        vertical-align: top;
+        width: 18px;
+        color: blue;
+        border-radius: 10%;
+
+    }
 }
     
     
@@ -512,6 +560,38 @@ li a{
     background-color: #ffffff;
 }
 
+.section_features .box-content{
+    margin: 5px 0;
+    height: 180px;
+    
+    
+}
+
+.section_features .box-content h4{
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.section_features .box-content p{
+    font-size: 15px;
+    color: #5c6a88;
+    margin-bottom: 10px;
+    
+}
+
+.section_features .box-content a{
+    font-family: 'Roboto Slab', serif;
+    color: blue;
+    text-decoration: none;
+
+}
+
+.section_features .box-content .flow{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+
 /* section services */
 
 .section_services{
@@ -522,6 +602,36 @@ li a{
 .section_choiche_second{
     background-color: #f3f5f9;
 }
+
+
+.section_choiche_second .rockerbox{
+    background-color: white;
+    border-radius: 2%;
+}
+.section_choiche_second .rockerbox img{
+    width: 50%;
+    padding-top: 40px;
+}
+
+.section_choiche_second .rockerbox a{
+    color: blue;
+    text-decoration: none;
+
+}
+
+.section_choiche_second .rockerbox .flow{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.section_choiche_second .rockerbox p{
+    color: #6f7b97;
+    font-size: 20px;
+    padding: 10px 35px; 
+    margin: 10px 0;
+    
+}
+
 
 /* section account */
 .section_account{
