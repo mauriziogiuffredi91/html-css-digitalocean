@@ -392,8 +392,9 @@ li a{
 }
 
 .section_sidebar .sidebar-box .box-content{
-    margin: 5px 0;
-    height: 180px;
+    margin-top: 5px;
+    height: 200px;
+    margin-bottom: 10px;
     
     
 }
@@ -611,7 +612,7 @@ li a{
 }
 
 .section_services .box_city{
-    margin: 55px 0;
+    margin: 20px 0;
 }
 
 .section_services .box_city li:not(:last-of-type){
